@@ -1,0 +1,74 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+main{
+    width: 100%;
+}
+
+/* Fila 1 */
+main .row{
+    width: 100%;
+    display: flex;
+}
+
+main .row .col1{
+    width: 33.33%;
+    height: 30vh;
+    background-color: aqua;
+    margin: 5px;
+}
+
+main .row .col2{
+    width: 69.34%;
+    height: 30vh;
+    background-color:aquamarine;
+    margin: 5px;
+}
+
+/* Fila 2 */
+main .container{
+    width: 100%;
+}
+
+main .container .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+main .container .row .col3{
+    width: 33.33%;
+    height: 30vh;
+    background-color: blue;
+    margin: 5px;
+}
+
+main .container .row .col4{
+    width: 33.33%;
+    height: 30vh;
+    background-color:blueviolet;
+    margin: 5px;
+}
+
+main .container .row .col5{
+    width: 33.33%;
+    height: 30vh;
+    background-color:brown;
+    margin: 5px;
+}
+
+main .container .row .col6{
+    width: 50%;
+    height: 30vh;
+    background-color:burlywood;
+    margin: 5px;
+}
+
+main .container .row .col7{
+    width: 50%;
+    height: 30vh;
+    background-color:cadetblue;
+    margin: 5px;
+}
